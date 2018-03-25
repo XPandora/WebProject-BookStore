@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#content {
+  width: 100%;
+}
+
+#projects-container .project-item {
+  display: block;
+  position: relative;
+  margin: 5px;
+  width: 360px;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  filter: alpha(opacity=100);
+  overflow: hidden;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+
+.head{
+  height: 700px;
+  background: url('./fonts/photo1.jpg') no-repeat;
+  background-size:100%;
+}
+
+.header-text-container{
+  margin-top:150px;
+  text-align: right;
+}
+
+.title{
+  display: block;
+}
+
+.title h4 {
+  font-family: "Microsoft YaHei", "宋体", "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-indent: 6px;
+  color: #2f2e2e;
+}
+
+#display-title {
+  padding: 120px 0 100px 0;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
